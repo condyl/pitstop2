@@ -1,0 +1,6 @@
+{
+  valid: endDate > startDate,
+  message: endDate <= startDate ? 
+    "End date must be later than start date" : 
+    null
+}

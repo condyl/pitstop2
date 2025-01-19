@@ -1,0 +1,3 @@
+filter ($session: Session, $user: User) on Booking [
+  where userId == $session.userId || parkingSpace.ownerId == $session.userId
+]

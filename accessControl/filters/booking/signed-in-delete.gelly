@@ -1,0 +1,5 @@
+filter ($session: Session, $user: User) on Booking [
+  where userId == $user.id && 
+  status == "pending"
+]
+# structured filters: [{"type":"tenancy_read_filter","field":"user"},{"type":"field_values_filter","field":"status","values":["pending"]}]

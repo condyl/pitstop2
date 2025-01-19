@@ -1,0 +1,7 @@
+filter ($session: Session, $user: User) on Booking [
+  where
+    # User can only update their own bookings
+    user == $user &&
+    # Only bookings in pending or confirmed status can be updated
+    (status == "pending" || status == "confirmed") 
+]
