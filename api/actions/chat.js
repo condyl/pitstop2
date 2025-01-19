@@ -1,5 +1,6 @@
 import { Groq } from "groq-sdk";
 import { assert } from "gadget-server";
+import { GROQ_API_KEY } from "../../web/config";
 
 /** @type { import("gadget-server").ActionOptions } */
 export const options = {
@@ -7,8 +8,6 @@ export const options = {
     public: true
   }
 };
-
-const GROQ_API_KEY = "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";
 
 /** @type { ActionRun } */
 export const run = async ({ params, logger }) => {
