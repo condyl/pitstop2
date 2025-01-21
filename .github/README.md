@@ -1,19 +1,28 @@
-# TailwindCSS
+# 🅿️ PitStop - Your Parking Spot Marketplace
 
-This template comes pre-installed with TailwindCSS, making it easy to create custom user interfaces in Gadget. Tailwind's configuration is ready to be extended as needed for your app.
+Welcome to PitStop, where we're revolutionizing urban parking! Built during uOttaHacks 7, we're creating the Airbnb of parking spots - connecting drivers with unused parking spaces in busy cities. Need a spot? We've got you covered! 🚗✨
 
-[![Fork template](https://img.shields.io/badge/Fork%20template-%233A0CFF?style=for-the-badge)](https://app.gadget.dev/auth/fork?domain=tailwind-css-template.gadget.app)
+## 🛠️ Tech Stack Highlights
 
-## Key Features
+- **[Gadget](https://gadget.dev)** - All-in-one development & hosting platform
+- **Groq Vision & LLM APIs** - Smart verification of parking spots and automated listing descriptions
+- **TailwindCSS** - Making your parking hunt a beautiful experience 
 
-- Models
+## ✨ Key Features
 
-  - `user`: Manages signups and user information for all users in the application.
+- 🗺️ Find nearby parking spots on an interactive map
+- 💰 List your unused parking space and earn money
+- 📱 Easy booking and secure payments
+- ⭐ Review system for spots and renters
+- 📅 Flexible booking options - hourly, daily, or monthly
+- 📸 AI-powered spot verification
 
-- Frontends
+## 🏗️ Project Structure
 
-  - `tailwind.config.js`: Configures and customizes Tailwind for your app.
-  - `postcss.config.js`: Allows Tailwind to run on Vite, Gadget's build tool for frontends.
+- `Models`: User profiles, parking spot listings, and booking management
+- `Frontend`: Sleek TailwindCSS UI with interactive maps
+- `API Integration`: Groq AI for smart spot verification and description generation
 
-- Files
-  - `package.json`: Updated to include Tailwind.
+## 🌟 Made with Love at uOttaHacks 7
+
+Built by a team who believes finding parking shouldn't be a headache. Let's make cities more accessible, one parking spot at a time! 🚀
